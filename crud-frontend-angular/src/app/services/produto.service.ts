@@ -7,7 +7,7 @@ import { Produto } from '../models/produto.model';
   providedIn: 'root'
 })
 export class ProdutoService {
-  private apiUrl = 'http://localhost:3000/produtos';
+  private apiUrl = 'https://backend-crud-ljpr.onrender.com/produtos';
 
   constructor(private http: HttpClient) { }
 
